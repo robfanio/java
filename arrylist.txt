@@ -1,0 +1,57 @@
+package binsonPkg_01;
+
+import java.util.ArrayList;
+
+public class ArrayList1 {
+
+	public static void main(String[] args) {
+		ArrayList<String> fruitList = new ArrayList<String>();
+		fruitList.add("mango");
+		fruitList.add("banana");
+		fruitList.add("strawberry");
+		fruitList.add("grapes");
+		fruitList.add("orange");
+		
+			System.out.println(fruitList);
+		ArrayList<String> cars = new ArrayList<String>();
+		cars.add("BMW");
+		cars.add("Mercedes");
+		cars.add("Ferarri");
+		cars.add("Range Rover");
+		
+		System.out.println(cars);
+				
+		ArrayList<Integer> numbers = new ArrayList<Integer>();
+		numbers.add(10);
+		numbers.add(20);
+		numbers.add(30);
+		numbers.add(40);
+		System.out.println(numbers);
+		
+		ArrayList<String> sports = new ArrayList<String>();
+		sports.add("basketball");
+		sports.add("football");
+		sports.add("baseball");
+		sports.add("tennis");
+		
+		
+		System.out.println(sports);
+		
+		ArrayList<String> color = new ArrayList<String>();
+		color.add("red");
+		color.add("white");
+		color.add("blue");
+		color.add("orange");
+		color.add("yellow");
+		color.add("green");
+		color.add("red");
+		
+		System.out.println(color);
+		color.set(0, "purple");
+		System.out.println(color);
+		
+		for (String colors: color) {
+			System.out.println(colors);
+		}
+}
+}

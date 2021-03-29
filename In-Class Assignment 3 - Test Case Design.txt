@@ -1,0 +1,58 @@
+In-Class Assignment 3 - Design Test Cases after Requirement Analysis
+
+User Story: As an authenticated user on the PeopleNTech forum, I want to be able to create posts for others to view. 
+	
+	Acceptance Criteria
+		1. Posts can be created without attachments
+
+		2. Posts can be created with attachments that have the following file types:
+			1. .txt
+			2. .docx
+			3. .pptx
+			4. .xlsx
+			5. .pdf
+			6. .zip
+
+		2a. Maximum number of attachments allowed is 10. 
+			1. Maximum file size for each attachment is 10MB
+			2. File size that exceeds 10MB will result in an error message saying "File size is too large!"
+
+		3. At any given time during the day, the user is allowed to have a maximum of 3 new posts
+			A. When the user attempts to create the 4th post, they see an error message in the center of the page saying "You have reached your maximum number of posts!"
+			B. 
+
+		4. User is able to download attachments from posts created by other users
+
+		5. User is able to download attachments from posts that they have created
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+User Story: As an authenticated user on the PeopleNTech forum, I want to be able to update and delete posts. 
+	Acceptance Criteria:
+		1. Posts can be updated only by the author of the post
+			A. Updates can include the following:
+				1. Changing the content
+				2. Changing the subject of post 
+				3. Adding attachments
+				4. Removing attachments
+			B. An error message saying "You can only update your post!" will appear when an authenticated user attempts to update a post authored by someone else
+		
+		2. Posts can be deleted only by the author of the post
+			A. An error message saying "You can only delete your post!" will appear when an authenticated user attempts to delete a post authored by someone else.
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
